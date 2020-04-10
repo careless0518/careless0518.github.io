@@ -1,37 +1,120 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/careless0518/careless0518.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+   <style type="text/css">
+    img {
+    width: 126px;
+    height: 80px;
+    vertical-align: middle;
+    vertical-align: text-top;
+    float: left;
+    margin-right: 5px;
 
-### Markdown
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+a {
+    float: left;
+    display: inline-block;
+    margin-top: 3px;
+}
 
-# Header 1
-## Header 2
-### Header 3
+.menu {
+    width: 400px;
 
-- Bulleted
-- List
+}
 
-1. Numbered
-2. List
+.tab {
+    background-color: lightgrey;
+    border-radius: 10px 10px 0 0;
+    height: 30px;
+    text-indent:10px;
+    line-height: 30px;
+}
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+.goods {
+    border-bottom: 1px solid #000;
+    overflow: hidden;
+    margin: 0px 0px 3px 0px;
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/careless0518/careless0518.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+.tips {
+    float: left;
+    height: 80px;
 
-### Support or Contact
+}
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+.price {
+    color: red;
+    display: inline-block;
+}
+
+.buy {
+    float: right;
+    margin-bottom: 2px;
+    color: blue;
+
+    
+border:1px solid;
+border-radius:20px;
+}
+    </style>
+    <title>购物车</title>
+
+</head>
+
+<body>
+    <div class="menu">
+        <div class="tab">请选择您要咨询的商品</div>
+
+        <div class="goods">
+            <div class="tips"><a href="https://tk.lenovo.com.cn/product/1007163.html" target="_blank">
+                    <img src="https://p3.lefile.cn/fes/cms/2019/12/31/3r0ep91x48xsyjvox02ft483ofa07t577067.jpg"
+                        title="拯救者">扬天 威6 Pro 英特尔酷睿i7 13.3英寸商用笔记本电脑
+                </a>
+            </div>
+
+            <div class="price">¥5099</div>
+            <button class="buy" onclick="alert('感谢惠顾')">购买</button>
+
+
+        </div>
+
+        <div class="goods">
+            <div class="tips"><a href="https://tk.lenovo.com.cn/product/1007163.html" target="_blank">
+                    <img src="https://p3.lefile.cn/fes/cms/2019/12/31/3r0ep91x48xsyjvox02ft483ofa07t577067.jpg"
+                        title="拯救者">扬天 威6 Pro 英特尔酷睿i7 13.3英寸商用笔记本电脑
+                </a>
+            </div>
+
+            <div class="price">¥5099</div>
+            <button class="buy" onclick="alert('感谢惠顾')">购买</button>
+
+
+        </div>
+        <div class="goods">
+            <div class="tips"><a href="https://tk.lenovo.com.cn/product/1007163.html" target="_blank">
+                    <img src="https://p3.lefile.cn/fes/cms/2019/12/31/3r0ep91x48xsyjvox02ft483ofa07t577067.jpg"
+                        title="拯救者">扬天 威6 Pro 英特尔酷睿i7 13.3英寸商用笔记本电脑
+                </a>
+            </div>
+
+            <div class="price">¥5099</div>
+            <button class="buy" onclick="alert('感谢惠顾')">购买</button>
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
